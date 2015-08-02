@@ -3,7 +3,7 @@
   "type": "application",
   "description": "Technic Solder API using Lumen Framework",
   "keywords": ["technic", "solder", "api"],
-  "homepage": "https://github.com/GenPage/SolderAPI",
+  "homepage": "https://github.com/TechnicPack/LumenSolder",
   "license": "MIT",
   "authors": [{
                "name": "Dylan Page",
