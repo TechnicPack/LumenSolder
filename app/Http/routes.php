@@ -18,4 +18,4 @@ $app->get('/modpack/{modpack}/{build}', 'ApiController@getModpack');
 $app->get('/mod', 'ApiController@getMod');
 $app->get('/mod/{mod}', 'ApiController@getMod');
 $app->get('/mod/{mod}/{version}', 'ApiController@getMod');
-$app->get('/verify', 'ApiController@getVerify');
+$app->get('/verify/{key}', 'ApiController@getVerify');
