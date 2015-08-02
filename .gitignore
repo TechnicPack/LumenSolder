@@ -1,0 +1,8 @@
+/vendor
+/build/logs
+/build/coverage
+/tests/_log
+composer.lock
+.DS_Store
+.env
+!.env.testing

@@ -1,0 +1,20 @@
+language: php
+
+php:
+  - 5.4
+  - 5.5
+  - 5.6
+  - hhvm
+
+sudo: false
+
+before_install:
+  - composer self-update
+
+install: travis_retry composer install --no-interaction
+
+before_script: 
+  - php artisan migrate:refresh --force
+  - php artisan db:seed --class="TestSeeder" --force
+
+script: vendor/bin/phpunit --verbose
