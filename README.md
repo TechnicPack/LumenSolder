@@ -1,5 +1,4 @@
 # LumenSolder
-=============
 
 What is LumenSolder?
 --------------
@@ -16,7 +15,7 @@ Requirements
 * A [TechnicSolder](https://github.com/TechnicPack/TechnicSolder) install
 * Composer - PHP Dependency Manager - http://getcomposer.org
 
-Installation/Updating Solder
+Installation/Updating LumenSolder
 -------------
 
 TBA
